@@ -1,0 +1,61 @@
+body {
+    color: white;
+    font-size: 30px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    background-color: aquamarine;
+    border-radius: 15px;
+    gap: 15px;
+    margin: 5px;
+    padding: 25px;
+
+}
+
+.section1 {
+    background-color: rgb(9, 121, 121);
+    grid-column: span 6;
+    text-align: center;
+}
+
+.section2 {
+    background-color: rgb(142, 213, 36);
+    grid-column: span 1;
+    grid-row: span 30;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content {
+    background-color: orange;
+    grid-column: span 5;
+    grid-row: span 30;
+    text-align: center;
+    align-content: end;
+    margin-left: 20px;
+}
+
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    height: 170px;
+}
+
+
+.image-gallery p {
+    width: 300px;
+    height: 120px;
+    align-content: center;
+    background-color: rgb(251, 203, 114);
+}
+
+.footer {
+    background-color: rgb(9, 121, 121);
+    grid-column: span 6;
+    text-align: center;
+}
